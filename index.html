@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0c0e">
+  <title>VYBE — Music Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="app">
+    <aside class="sidebar">
+      <a href="#" class="logo"><span>v.</span> VYBE</a>
+
+      <div class="nav-group">
+        <p class="nav-heading">MENU</p>
+        <a href="#discover" class="nav-link active"><span>⌂</span> Discover</a>
+        <a href="#albums" class="nav-link"><span>♫</span> Explore Music</a>
+        <a href="#player" class="nav-link"><span>◉</span> Now Playing</a>
+      </div>
+
+      <div class="nav-group">
+        <p class="nav-heading">YOUR LIBRARY</p>
+        <a href="#tracks" class="nav-link"><span>♡</span> Liked Songs</a>
+        <a href="#tracks" class="nav-link"><span>◷</span> Recently Played</a>
+        <a href="#playlists" class="nav-link"><span>▤</span> Playlists</a>
+      </div>
+
+      <div class="sidebar-playlist" id="playlists">
+        <p class="nav-heading">YOUR PLAYLISTS</p>
+        <a href="#tracks"><i class="dot lime"></i> Late Night Vibes</a>
+        <a href="#tracks"><i class="dot purple"></i> Deep Focus</a>
+        <a href="#tracks"><i class="dot orange"></i> After Hours</a>
+        <a href="#tracks"><i class="dot blue"></i> Daily Mix</a>
+        <a href="#albums" class="create-playlist">＋ Create playlist</a>
+      </div>
+
+      <div class="sidebar-bottom">
+        <div class="profile-avatar">A</div>
+        <div class="profile-info">
+          <strong>Amin Rasooli</strong>
+          <span>Free account</span>
+        </div>
+        <span class="profile-menu">···</span>
+      </div>
+    </aside>
+
+    <main class="main-content" id="discover">
+      <header class="topbar">
+        <div class="history-buttons">
+          <a href="#" class="round-button">‹</a>
+          <a href="#albums" class="round-button">›</a>
+        </div>
+
+        <div class="search-box">
+          <span>⌕</span>
+          <span>Search songs, artists...</span>
+          <kbd>/</kbd>
+        </div>
+
+        <a href="#albums" class="upgrade-button">Upgrade <span>↗</span></a>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="live-label"><span></span> YOUR DAILY SOUNDTRACK</div>
+          <p class="hero-overline">LOSE YOURSELF IN MUSIC</p>
+          <h1>Feel every<br><span>beat.</span></h1>
+          <p class="hero-description">Your mood. Your music. Your moment.<br>Discover sounds that move you.</p>
+          <div class="hero-actions">
+            <a href="#tracks" class="primary-button"><span>▶</span> Explore music</a>
+            <a href="#albums" class="secondary-button">Discover more ↗</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>50K<span>+</span></strong><small>Tracks</small></div>
+            <div><strong>12K<span>+</span></strong><small>Artists</small></div>
+            <div><strong>100<span>%</span></strong><small>Your vibe</small></div>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="hero-glow"></div>
+          <div class="hero-album">
+            <div class="album-sun"></div>
+            <div class="album-mountain mountain-back"></div>
+            <div class="album-mountain mountain-front"></div>
+            <div class="album-label"><span>VYBE EXCLUSIVE</span><strong>AFTER<br>HOURS</strong><small>VOL. 001</small></div>
+          </div>
+          <div class="floating-card floating-top"><span>♫</span><div><strong>Good vibes only</strong><small>Curated for you</small></div></div>
+          <div class="floating-card floating-bottom"><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div><div><strong>Now trending</strong><small>Feel the rhythm</small></div></div>
+          <div class="visualizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </section>
+
+      <section class="section" id="albums">
+        <div class="section-header">
+          <div><p class="section-kicker">HANDPICKED FOR YOU</p><h2>Made for your mood <span>✳</span></h2></div>
+          <a href="#tracks" class="see-all">View all <span>↗</span></a>
+        </div>
+
+        <div class="album-grid">
+          <a href="#player" class="album-card">
+            <div class="cover cover-one"><span class="cover-tag">VYBE MIX</span><div class="cover-circle"></div><strong>SOFT<br>ENERGY</strong><span class="cover-number">01 / 04</span><span class="cover-play">▶</span></div>
+            <div class="card-info"><strong>Soft Energy</strong><span>Chill · R&B · 24 tracks</span></div>
+          </a>
+          <a href="#player" class="album-card">
+            <div class="cover cover-two"><span class="cover-tag">EDITOR'S PICK</span><div class="cover-sun"></div><div class="cover-figure"></div><strong>GOLDEN<br>HOUR</strong><span class="cover-number">02 / 04</span><span class="cover-play">▶</span></div>
+            <div class="card-info"><strong>Golden Hour</strong><span>Indie · Pop · 18 tracks</span></div>
+          </a>
+          <a href="#player" class="album-card">
+            <div class="cover cover-three"><span class="cover-tag">TRENDING</span><div class="cover-rings"></div><strong>DEEP<br>FOCUS</strong><span class="cover-number">03 / 04</span><span class="cover-play">▶</span></div>
+            <div class="card-info"><strong>Deep Focus</strong><span>Ambient · Electronic · 32 tracks</span></div>
+          </a>
+          <a href="#player" class="album-card">
+            <div class="cover cover-four"><span class="cover-tag">NEW DROP</span><div class="cover-flower">✳</div><strong>NIGHT<br>DRIVE</strong><span class="cover-number">04 / 04</span><span class="cover-play">▶</span></div>
+            <div class="card-info"><strong>Night Drive</strong><span>Synthwave · Electronic · 21 tracks</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section tracks-section" id="tracks">
+        <div class="section-header">
+          <div><p class="section-kicker">YOUR NEXT OBSESSION</p><h2>Trending tracks <span class="trend-icon">↗</span></h2></div>
+          <a href="#player" class="see-all">See playlist <span>↗</span></a>
+        </div>
+
+        <div class="track-list">
+          <a href="#player" class="track-row">
+            <span class="track-index">01</span><div class="track-cover track-cover-one">✳</div><div class="track-details"><strong>Midnight City</strong><span>M83 · Hurry Up, We're Dreaming</span></div><span class="track-tag">SYNTH</span><span class="track-duration">4:03</span><span class="track-heart">♡</span>
+          </a>
+          <a href="#player" class="track-row">
+            <span class="track-index">02</span><div class="track-cover track-cover-two">◒</div><div class="track-details"><strong>Pink + White</strong><span>Frank Ocean · Blonde</span></div><span class="track-tag">R&B</span><span class="track-duration">3:04</span><span class="track-heart">♡</span>
+          </a>
+          <a href="#player" class="track-row">
+            <span class="track-index">03</span><div class="track-cover track-cover-three">✺</div><div class="track-details"><strong>After Dark</strong><span>Mr.Kitty · Time</span></div><span class="track-tag">DARK POP</span><span class="track-duration">4:17</span><span class="track-heart">♡</span>
+          </a>
+          <a href="#player" class="track-row">
+            <span class="track-index">04</span><div class="track-cover track-cover-four">☼</div><div class="track-details"><strong>Sunset Lover</strong><span>Petit Biscuit · Presence</span></div><span class="track-tag">CHILL</span><span class="track-duration">3:57</span><span class="track-heart">♡</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer"><a href="#" class="logo"><span>v.</span> VYBE</a><p>Designed for the love of sound.</p><span>© 2026 VYBE STUDIO</span></footer>
+    </main>
+  </div>
+
+  <div class="player-bar" id="player">
+    <div class="now-playing">
+      <div class="player-cover">✳</div>
+      <div class="player-track"><strong>Midnight City</strong><span>M83</span></div>
+      <span class="player-heart">♡</span>
+    </div>
+
+    <div class="player-center">
+      <div class="player-controls">
+        <button aria-label="Shuffle">⤨</button>
+        <button aria-label="Previous">◂</button>
+        <a href="#tracks" class="main-play" aria-label="Play">▶</a>
+        <button aria-label="Next">▸</button>
+        <button aria-label="Repeat">⟳</button>
+      </div>
+      <div class="progress-row"><span>1:24</span><div class="progress-track"><div class="progress-fill"></div><i class="progress-knob"></i></div><span>4:03</span></div>
+    </div>
+
+    <div class="player-extra"><span>♫</span><div class="volume-track"><div></div></div><span>⛶</span></div>
+  </div>
+</body>
+</html>
